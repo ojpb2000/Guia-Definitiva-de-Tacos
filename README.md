@@ -4,6 +4,12 @@
 
 Este proyecto presenta un análisis completo de las mejores taquerías de la Ciudad de México basado en datos reales de Google Maps, con un dashboard interactivo que muestra los insights más relevantes sobre los tacos más populares.
 
+## 🌐 **Demo en Vivo**
+
+**¡Visita el dashboard en vivo!** 🌮✨
+- **URL:** https://ojpb2000.github.io/Guia-Definitiva-de-Tacos/
+- **Dashboard:** https://ojpb2000.github.io/Guia-Definitiva-de-Tacos/dashboard_taquerias.html
+
 ## 🎯 Objetivo
 
 Identificar y analizar los mejores tacos de la Ciudad de México, organizados por tipo, rankings y características especiales, para crear una guía definitiva que ayude a los amantes de los tacos a encontrar las mejores opciones.
@@ -14,6 +20,7 @@ Identificar y analizar los mejores tacos de la Ciudad de México, organizados po
 - `analisis_taquerias.py` - Script de Python para procesar y analizar los datos
 - `analisis_taquerias.json` - Resultados del análisis en formato JSON
 - `dashboard_taquerias.html` - Dashboard interactivo con visualización de resultados
+- `index.html` - Página principal con redirección automática
 - `README.md` - Documentación del proyecto
 
 ## 🔍 Tipos de Tacos Analizados
@@ -73,13 +80,32 @@ El análisis incluye los siguientes tipos de tacos:
 
 ## 🚀 Cómo Usar
 
-### 1. Ejecutar el Análisis
+### 🌐 **Opción 1: Demo en Vivo (Recomendado)**
+Simplemente visita: https://ojpb2000.github.io/Guia-Definitiva-de-Tacos/
+
+### 💻 **Opción 2: Ejecutar Localmente**
+
+#### 1. Clonar el Repositorio
+```bash
+git clone https://github.com/ojpb2000/Guia-Definitiva-de-Tacos.git
+cd Guia-Definitiva-de-Tacos
+```
+
+#### 2. Instalar Dependencias
+```bash
+pip install -r requirements.txt
+```
+
+#### 3. Ejecutar el Análisis
 ```bash
 python analisis_taquerias.py
 ```
 
-### 2. Ver el Dashboard
-Abre el archivo `dashboard_taquerias.html` en tu navegador web.
+#### 4. Ver el Dashboard
+```bash
+python -m http.server 8000
+```
+Luego abre: `http://localhost:8000/dashboard_taquerias.html`
 
 ## 📊 Resultados Destacados
 
@@ -104,6 +130,8 @@ Abre el archivo `dashboard_taquerias.html` en tu navegador web.
 - **Enlaces Directos** - Acceso directo a Google Maps de cada taquería
 - **Diseño Moderno** - Interfaz atractiva con gradientes y animaciones
 - **Información Completa** - Rankings, estadísticas e insights detallados
+- **Gráficos Interactivos** - Chart.js para visualización de datos
+- **Pestañas Organizadas** - Navegación fácil entre secciones
 
 ## 📋 Requisitos
 
@@ -132,6 +160,7 @@ pip install pandas numpy
 - **Rankings Múltiples** - Diferentes criterios de evaluación
 - **Enlaces Directos** - Acceso inmediato a Google Maps
 - **Diseño de Revista** - Presentación profesional y atractiva
+- **GitHub Pages** - Despliegue automático y acceso público
 
 ## 📞 Contacto
 
